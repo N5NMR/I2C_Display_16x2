@@ -2,7 +2,8 @@
 #include <LiquidCrystal_I2C.h>
 
 // Erstelle ein LCD-Objekt: Adresse 0x27, 20 Zeichen, 4 Zeilen
-LiquidCrystal_I2C lcd(0x27, 20, 4);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+//LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 void setup() {
   // LCD initialisieren
